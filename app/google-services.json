@@ -1,43 +1,35 @@
 {
   "project_info": {
-    "project_number": "360441966603",
-    "firebase_url": "https://wajslce.firebaseio.com",
-    "project_id": "wajslce",
-    "storage_bucket": "wajslce.appspot.com"
+    "project_number": "978126647594",
+    "firebase_url": "https://wajslce-2ee8b.firebaseio.com",
+    "project_id": "wajslce-2ee8b",
+    "storage_bucket": "wajslce-2ee8b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:360441966603:android:4dfdc3fa9cfa82c0",
+        "mobilesdk_app_id": "1:978126647594:android:b8ad1cb6cb5d0506",
         "android_client_info": {
-          "package_name": "com.jakvrh1.Wajslce"
+          "package_name": "com.jakvrh1.visliceWajslce"
         }
       },
       "oauth_client": [
         {
-          "client_id": "360441966603-mnrmch30mv08qng96eso9pdphsitep6d.apps.googleusercontent.com",
+          "client_id": "978126647594-4aovafokmi3bk2aoeqg9293a1t7nhmen.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.jakvrh1.Wajslce",
+            "package_name": "com.jakvrh1.visliceWajslce",
             "certificate_hash": "374C96483B76EEA8F5CADB976DCBB8D04724892E"
           }
         },
         {
-          "client_id": "360441966603-65588idvkt3u860q6jjk5b9j94mjrn3g.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.jakvrh1.Wajslce",
-            "certificate_hash": "1235629107A121E915DDF8297FE49A8E9F38C069"
-          }
-        },
-        {
-          "client_id": "360441966603-4oc50kv5hb8upl2l6esa51smft0i3q7j.apps.googleusercontent.com",
+          "client_id": "978126647594-kdi2trivis24oke5dc6duht5edjerdd1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD602UeZvi77ns9N_SwYu3yB60gyaLiK2U"
+          "current_key": "AIzaSyALh03RXJUTa0A3M1XJad7XA2Sge8NyxgE"
         }
       ],
       "services": {
@@ -48,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "360441966603-4oc50kv5hb8upl2l6esa51smft0i3q7j.apps.googleusercontent.com",
+              "client_id": "978126647594-kdi2trivis24oke5dc6duht5edjerdd1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
