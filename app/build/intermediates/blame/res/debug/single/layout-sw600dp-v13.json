@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/dialog_score_fragment.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/layout-sw600dp/dialog_score_fragment.xml"
+    },
+    {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/vislice_drzave_fragment.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/layout-sw600dp/vislice_drzave_fragment.xml"
+    },
+    {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/rezultati_fragment.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/layout-sw600dp/rezultati_fragment.xml"
+    },
+    {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/vislice_glavna_mesta_fragment.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/layout-sw600dp/vislice_glavna_mesta_fragment.xml"
+    },
+    {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/menu_fragment.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/layout-sw600dp/menu_fragment.xml"
+    }
+]

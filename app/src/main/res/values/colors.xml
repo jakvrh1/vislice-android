@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="softblue">#E6FAFC</color>
+    <color name="softzelena1">#9CFC97</color>
+    <color name="softzelena2">#A2E3C4</color>
+    <color name="whites">#F0F7F4</color>
+    <color name="siva">#B3BFB8</color>
+
+    <color name="rumena1">#FFCC00</color>
+    <color name="black1">#121207</color>
+
+    <color name="zelena1">#56D2A3</color>
+    <color name="zelena2">#2FC68D</color>
+    <color name="zelena3">#00794B</color>
+
+    <color name="modra1">#4130FF</color>
+    <color name="modra2">#3F4BE8</color>
+    <color name="modra3">#6E8EFF</color>
+    <color name="modra4">#78A1E8</color>
+    <color name="modra5">#A2D2FF</color>
+
+
+    <color name="combo1_1">#99CC99</color>
+    <color name="combo1_2">#FFCC00</color>
+    <color name="combo1_3">#99CCFF</color>
+
+    <color name="combo2_1">#92CD00</color>
+    <color name="combo2_2">#FFCF79</color>
+    <color name="combo2_3">#E5E4D7</color>
+    <color name="combo2_4">#2C6700</color>
+
+    <color name="softblue1">#587498</color>
+    <color name="softdark">#454c54</color>
+
+</resources>
