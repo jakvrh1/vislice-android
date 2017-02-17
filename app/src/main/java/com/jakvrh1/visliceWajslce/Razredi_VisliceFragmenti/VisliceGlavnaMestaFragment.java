@@ -217,28 +217,11 @@ public class VisliceGlavnaMestaFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 if (v.getAlpha() == 1.0F) {
-                    int count = 0;
-                    boolean free = false;
-
-                    while (count < 2) {
-                        int r = random.nextInt(trenutna_beseda.length());
-                        for (int i = r; i < trenutna_beseda.length(); ++i) {
-                            if (mBeseda.getText().toString().charAt(i) == '_') {
-                                perform_clicking(trenutna_beseda.charAt(i));
-                                ++count;
-                                break;
-                            }
-                        }
-
-                        for (int i = 0; i < trenutna_beseda.length(); ++i) {
-                            if (mBeseda.getText().toString().charAt(i) == '_') {
-                                free = true;
-                            }
-                        }
-                        if (!free) break;
-                    }
+                    one_random_char();
+                    one_random_char();
                     --dve_crki;
                     perks();
+
                 }
             }
         });
@@ -247,27 +230,31 @@ public class VisliceGlavnaMestaFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 if (v.getAlpha() == 1.0F) {
-                    boolean free = false;
-                    for (int i = 0; i < trenutna_beseda.length(); ++i) {
-                        if (mBeseda.getText().toString().charAt(i) == '_') {
-                            free = true;
-                        }
-                    }
-                    while (free) {
-                        int r = random.nextInt(trenutna_beseda.length());
-                        for (int i = r; i < trenutna_beseda.length(); ++i) {
-                            if (mBeseda.getText().toString().charAt(i) == '_') {
-                                perform_clicking(trenutna_beseda.charAt(i));
-                                free = false;
-                                break;
-                            }
-                        }
-                    }
+                    one_random_char();
                     --crka;
                     perks();
                 }
             }
         });
+    }
+
+    private void one_random_char() {
+        boolean free = false;
+        for (int i = 0; i < trenutna_beseda.length(); ++i) {
+            if (mBeseda.getText().toString().charAt(i) == '_') {
+                free = true;
+            }
+        }
+        while (free) {
+            int r = random.nextInt(trenutna_beseda.length());
+            for (int i = r; i < trenutna_beseda.length(); ++i) {
+                if (mBeseda.getText().toString().charAt(i) == '_') {
+                    perform_clicking(trenutna_beseda.charAt(i));
+                    free = false;
+                    break;
+                }
+            }
+        }
     }
 
     private void add_perks() {
