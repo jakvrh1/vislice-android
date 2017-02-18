@@ -32,13 +32,13 @@ public class RezultatiFragment extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        SharedPreferences prefs = getActivity().getSharedPreferences(VisliceDrzaveFragment.SHARED_PREFERENCES_VISLICE, Context.MODE_PRIVATE);
-        s_drzave = prefs.getInt(VisliceDrzaveFragment.ST_HIGH_SCORE, 0);
-        c_drzave = prefs.getInt(VisliceDrzaveFragment.ST_CURRENT_SCORE, 0);
+        SharedPreferences prefs = getActivity().getSharedPreferences(VisliceDrzaveFragment.SHARED_PREFERENCES_VISLICE(), Context.MODE_PRIVATE);
+        s_drzave = prefs.getInt(VisliceDrzaveFragment.ST_HIGH_SCORE(), 0);
+        c_drzave = prefs.getInt(VisliceDrzaveFragment.ST_CURRENT_SCORE(), 0);
 
-        prefs = getActivity().getSharedPreferences(VisliceGlavnaMestaFragment.SHARED_PREFERENCES_VISLICE, Context.MODE_PRIVATE);
-        s_mesta = prefs.getInt(VisliceGlavnaMestaFragment.ST_HIGH_SCORE, 0);
-        c_mesta = prefs.getInt(VisliceGlavnaMestaFragment.ST_CURRENT_SCORE, 0);
+        prefs = getActivity().getSharedPreferences(VisliceGlavnaMestaFragment.SHARED_PREFERENCES_VISLICE(), Context.MODE_PRIVATE);
+        s_mesta = prefs.getInt(VisliceGlavnaMestaFragment.ST_HIGH_SCORE(), 0);
+        c_mesta = prefs.getInt(VisliceGlavnaMestaFragment.ST_CURRENT_SCORE(), 0);
 
         exam_scores();
 
