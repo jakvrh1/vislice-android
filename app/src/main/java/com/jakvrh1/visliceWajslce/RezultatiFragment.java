@@ -14,6 +14,9 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.jakvrh1.visliceWajslce.Razredi_VisliceFragmenti.VisliceDrzaveFragment;
 import com.jakvrh1.visliceWajslce.Razredi_VisliceFragmenti.VisliceGlavnaMestaFragment;
+import com.jakvrh1.visliceWajslce.Razredi_VisliceFragmenti.VisliceZnamkeAvtoFragment;
+
+import org.w3c.dom.Text;
 
 /**
  * Created by jakvrh1 on 2/11/17.
@@ -23,8 +26,9 @@ public class RezultatiFragment extends Fragment {
 
     private TextView mDrzave;
     private TextView mMesta;
+    private TextView mAvtoZnamke;
     private TextView mRezultati;
-    private int s_drzave, s_mesta, c_drzave, c_mesta;
+    private int s_drzave, s_mesta, c_drzave, c_mesta, s_avto, c_avto;
     private AdView mAdView;
 
 
@@ -40,6 +44,15 @@ public class RezultatiFragment extends Fragment {
         s_mesta = prefs.getInt(VisliceGlavnaMestaFragment.ST_HIGH_SCORE(), 0);
         c_mesta = prefs.getInt(VisliceGlavnaMestaFragment.ST_CURRENT_SCORE(), 0);
 
+        prefs = getActivity().getSharedPreferences(VisliceGlavnaMestaFragment.SHARED_PREFERENCES_VISLICE(), Context.MODE_PRIVATE);
+        s_mesta = prefs.getInt(VisliceGlavnaMestaFragment.ST_HIGH_SCORE(), 0);
+        c_mesta = prefs.getInt(VisliceGlavnaMestaFragment.ST_CURRENT_SCORE(), 0);
+
+        prefs = getActivity().getSharedPreferences(VisliceZnamkeAvtoFragment.SHARED_PREFERENCES_VISLICE(), Context.MODE_PRIVATE);
+        s_avto = prefs.getInt(VisliceZnamkeAvtoFragment.ST_HIGH_SCORE(), 0);
+        c_avto = prefs.getInt(VisliceZnamkeAvtoFragment.ST_CURRENT_SCORE(), 0);
+
+
         exam_scores();
 
     }
@@ -54,6 +67,9 @@ public class RezultatiFragment extends Fragment {
 
         mMesta = (TextView) v.findViewById(R.id.rezultati_mesta);
         mMesta.setText(" -> " + Integer.toString(s_mesta));
+
+        mAvtoZnamke = (TextView) v.findViewById(R.id.rezultati_avtomobilskih_znamk);
+        mAvtoZnamke.setText(" -> " + Integer.toString(s_avto));
 
         mRezultati = (TextView) v.findViewById(R.id.rezultati_rezultati);
         mRezultati.setTypeface(Font.diggi_ziggy(getContext()));
@@ -71,6 +87,10 @@ public class RezultatiFragment extends Fragment {
         }
         if(c_mesta > s_mesta) {
             s_mesta = c_mesta;
+        }
+
+        if(c_avto > s_avto) {
+            s_avto = c_avto;
         }
     }
 }

@@ -29,11 +29,15 @@
     <color name="combo1_3">#99CCFF</color>
 
     <color name="combo2_1">#92CD00</color>
-    <color name="combo2_2">#FFCF79</color>
+    <color name="combo2_2_1">#FFCF79</color>
+    <color name="combo2_2">#F5E9E2</color>
+
     <color name="combo2_3">#E5E4D7</color>
     <color name="combo2_4">#2C6700</color>
 
     <color name="softblue1">#587498</color>
     <color name="softdark">#454c54</color>
+
+    <color name="black">#36312A</color>
 
 </resources>

@@ -47,6 +47,10 @@
             android:name="com.jakvrh1.visliceWajslce.RezultatiActivity"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name="com.jakvrh1.visliceWajslce.Razredi_VisliceFragmenti.VisliceZnamkeAvtoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
 
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity

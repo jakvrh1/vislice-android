@@ -156,6 +156,10 @@
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/layout/vislice_znamke_avtomobil.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/layout/vislice_znamke_avtomobil.xml"
+    },
+    {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },

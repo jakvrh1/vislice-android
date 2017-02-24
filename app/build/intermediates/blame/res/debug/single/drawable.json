@@ -12,12 +12,12 @@
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_textfield_search_material.xml"
     },
     {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
@@ -80,6 +80,10 @@
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/notification_bg_low.xml"
     },
     {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/avti_tt.png",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/drawable/avti_tt.png"
+    },
+    {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
@@ -116,6 +120,10 @@
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/drawable/vislice9.png"
     },
     {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/avti_t.png",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/drawable/avti_t.png"
+    },
+    {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_ic_search_api_material.xml"
     },
@@ -126,6 +134,10 @@
     {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/gumb.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/drawable/gumb.xml"
     },
     {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/vislice4.png",

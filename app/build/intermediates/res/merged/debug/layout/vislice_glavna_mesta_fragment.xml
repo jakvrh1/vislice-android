@@ -47,8 +47,8 @@
             android:fontFamily="serif"
             android:textSize="20dp"
             android:layout_gravity="center"
-            android:background="@color/combo2_3"
-            android:textColor="@color/softblue1" />
+            android:background="@drawable/gumb"
+            android:textColor="@color/black" />
 
         <Space
             android:layout_width="20dp"
@@ -64,8 +64,8 @@
             android:layout_gravity="center"
             android:textSize="25dp"
             android:gravity="center"
-            android:background="@color/combo2_3"
-            android:textColor="@color/softblue1" />
+            android:background="@drawable/gumb"
+            android:textColor="@color/black" />
 
         <Space
             android:layout_width="20dp"
@@ -81,8 +81,8 @@
             android:layout_gravity="center"
             android:textSize="25dp"
             android:gravity="center"
-            android:background="@color/combo2_3"
-            android:textColor="@color/softblue1"/>
+            android:background="@drawable/gumb"
+            android:textColor="@color/black"/>
 
         <Space
             android:layout_width="20dp"
@@ -112,9 +112,9 @@
             android:id="@+id/vislice_a"
             android:text="A"
             android:layout_width="30dp"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"/>
 
         <Space
@@ -124,10 +124,10 @@
         <Button
             android:id="@+id/vislice_b"
             android:text="B"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
         <Space
@@ -139,8 +139,8 @@
             android:text="C"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
-            android:background="@color/combo2_3"
-            android:textColor="@color/softblue1"
+            android:background="@drawable/gumb"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
         <Space
@@ -151,9 +151,9 @@
             android:id="@+id/vislice_cc"
             android:text="Č"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
         <Space
@@ -164,9 +164,9 @@
             android:id="@+id/vislice_d"
             android:text="D"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -175,9 +175,9 @@
             android:id="@+id/vislice_e"
             android:text="E"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -186,9 +186,9 @@
             android:id="@+id/vislice_f"
             android:text="F"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -197,9 +197,9 @@
             android:id="@+id/vislice_g"
             android:text="G"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -208,9 +208,9 @@
             android:id="@+id/vislice_h"
             android:text="H"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
         <Space
@@ -221,9 +221,9 @@
             android:id="@+id/vislice_i"
             android:text="I"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
     </LinearLayout>
@@ -242,9 +242,9 @@
             android:id="@+id/vislice_j"
             android:text="J"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -253,9 +253,9 @@
             android:id="@+id/vislice_k"
             android:text="K"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -264,9 +264,9 @@
             android:id="@+id/vislice_l"
             android:text="L"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -275,9 +275,9 @@
             android:id="@+id/vislice_m"
             android:text="M"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -286,9 +286,9 @@
             android:id="@+id/vislice_n"
             android:text="N"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -297,9 +297,9 @@
             android:id="@+id/vislice_o"
             android:text="O"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
         <Space
@@ -310,9 +310,9 @@
             android:id="@+id/vislice_p"
             android:text="P"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -321,9 +321,9 @@
             android:id="@+id/vislice_r"
             android:text="R"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
         <Space
@@ -334,9 +334,9 @@
             android:id="@+id/vislice_s"
             android:text="S"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -345,9 +345,9 @@
             android:id="@+id/vislice_ss"
             android:text="Š"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
     </LinearLayout>
@@ -367,9 +367,9 @@
             android:id="@+id/vislice_t"
             android:text="T"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -378,9 +378,9 @@
             android:id="@+id/vislice_u"
             android:text="U"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -389,9 +389,9 @@
             android:id="@+id/vislice_v"
             android:text="V"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -400,9 +400,9 @@
             android:id="@+id/vislice_z"
             android:text="Z"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -411,9 +411,9 @@
             android:id="@+id/vislice_zz"
             android:text="Ž"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
         <Space
@@ -424,9 +424,9 @@
             android:id="@+id/vislice_q"
             android:text="Q"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
         <Space
@@ -437,9 +437,9 @@
             android:id="@+id/vislice_w"
             android:text="W"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -448,9 +448,9 @@
             android:id="@+id/vislice_y"
             android:text="Y"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
         <Space
             android:layout_width="5dp"
@@ -459,9 +459,9 @@
             android:id="@+id/vislice_x"
             android:text="X"
             android:layout_width="30dp"
-            android:background="@color/combo2_3"
+            android:background="@drawable/gumb"
             android:layout_height="wrap_content"
-            android:textColor="@color/softblue1"
+            android:textColor="@color/black"
             android:textSize="25dp"/>
 
     </LinearLayout>

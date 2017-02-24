@@ -15,11 +15,14 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.jakvrh1.visliceWajslce.Razredi_VisliceFragmenti.VisliceDrzaveActivity;
 import com.jakvrh1.visliceWajslce.Razredi_VisliceFragmenti.VisliceGlavnaMestaActivity;
+import com.jakvrh1.visliceWajslce.Razredi_VisliceFragmenti.VisliceZnamkeAvtoActivity;
 
 public class MenuFragment extends Fragment {
 
     private Button mDrzave;
     private Button mGlavnaMesta;
+    private Button mAvtomobilskeZnamke;
+
     private Button mRezultati;
 
     private AdView mAdView;
@@ -44,6 +47,15 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), VisliceGlavnaMestaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mAvtomobilskeZnamke = (Button) view.findViewById(R.id.menu_znamke_avtov);
+        mAvtomobilskeZnamke.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), VisliceZnamkeAvtoActivity.class);
                 startActivity(intent);
             }
         });

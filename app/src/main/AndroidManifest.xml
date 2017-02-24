@@ -33,6 +33,11 @@
 
         </activity>
 
+        <activity android:name="com.jakvrh1.visliceWajslce.Razredi_VisliceFragmenti.VisliceZnamkeAvtoActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
 
     </application>
 
