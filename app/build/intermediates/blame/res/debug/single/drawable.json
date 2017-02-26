@@ -12,12 +12,12 @@
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
@@ -134,6 +134,10 @@
     {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/extra_gumb.xml",
+        "source": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/src/main/res/drawable/extra_gumb.xml"
     },
     {
         "merged": "/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/res/merged/debug/drawable/gumb.xml",

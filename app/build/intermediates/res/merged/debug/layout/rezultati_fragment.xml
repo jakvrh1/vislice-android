@@ -26,7 +26,7 @@
         android:layout_height="wrap_content">
 
         <Space
-            android:layout_width="50dp"
+            android:layout_width="20dp"
             android:layout_height="wrap_content" />
 
         <TextView
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content">
 
         <Space
-            android:layout_width="50dp"
+            android:layout_width="20dp"
             android:layout_height="wrap_content" />
 
         <TextView
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content">
 
         <Space
-            android:layout_width="50dp"
+            android:layout_width="20dp"
             android:layout_height="wrap_content" />
 
         <TextView

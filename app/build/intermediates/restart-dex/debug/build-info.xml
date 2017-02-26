@@ -5,9 +5,9 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="8205803817276"
+    timestamp="2267342341993"
     token="-8809153579030904403"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -23,22 +23,15 @@
         duration="0" />
 
     <artifact
-        location="/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="8071549330173"
+        timestamp="2267342341993"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="8205803817276"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

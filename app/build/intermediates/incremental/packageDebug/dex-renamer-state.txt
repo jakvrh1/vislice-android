@@ -1,4 +1,4 @@
-#Fri Feb 24 21:39:44 CET 2017
+#Sun Feb 26 13:47:26 CET 2017
 base.0=/home/jakvrh1/AndroidStudioProjects/wajslce/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_da4d225164286edf099e282352136b67a202b6ec
 renamed.1=classes.dex
 renamed.0=classes2.dex

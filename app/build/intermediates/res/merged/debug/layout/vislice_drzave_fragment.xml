@@ -36,7 +36,8 @@
         android:layout_weight="0.1"
         android:paddingBottom="10dp"
         android:gravity="center"
-        android:weightSum="6">
+        android:weightSum="6"
+        android:layout_gravity="center">
 
         <Button
             android:id="@+id/vislice_skok"
@@ -47,7 +48,7 @@
             android:fontFamily="serif"
             android:textSize="20dp"
             android:layout_gravity="center"
-            android:background="@drawable/gumb"
+            android:background="@drawable/extra_gumb"
             android:textColor="@color/black" />
 
         <Space
@@ -64,7 +65,7 @@
             android:layout_gravity="center"
             android:textSize="25dp"
             android:gravity="center"
-            android:background="@drawable/gumb"
+            android:background="@drawable/extra_gumb"
             android:textColor="@color/black" />
 
         <Space
@@ -81,7 +82,7 @@
             android:layout_gravity="center"
             android:textSize="25dp"
             android:gravity="center"
-            android:background="@drawable/gumb"
+            android:background="@drawable/extra_gumb"
             android:textColor="@color/black"/>
 
         <Space
@@ -95,7 +96,7 @@
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:fontFamily="serif"
-            android:layout_gravity="left"
+            android:layout_gravity="center"
             android:gravity="left"
             android:textColor="@color/black1"/>
 
